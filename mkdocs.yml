@@ -1,11 +1,11 @@
-site_name: Документация по Jetta VS8
-site_url: https://meowkka.github.io/jetta_vs8_docs/
+site_name: Документация по Kia Sportage 5 Turbo
+site_url: https://kia-sportage-docs.github.io/kia-sport5-docs/
 theme:
   name: material
   language: ru
   icon:
     annotation: material/arrow-right-circle
-  favicon: images/jetta.webp
+  favicon: images/apple-touch-icon-152x152.png
   features:
     - navigation.indexes
 markdown_extensions:
@@ -23,3 +23,62 @@ plugins:
 
 nav:
   - 'О ресурсе': index.md
+  - 'Выбор и сравнение': versions.md
+  - 'Известные проблемы' : issue.md
+  - 'Эксплуатация':
+    - 'Новая машина': expluatation/new_car.md
+    - 'Инструкции по эксплуатации': expluatation/manuals.md 
+    - 'Описание кнопок в салоне': expluatation/buttons.md
+    - 'Аксессуары': part/accessories.md
+  - 'Доработки и тюнинг':
+    - improvement/index.md
+    - 'Обогрев руля': improvement/wheel-heating.md
+    - 'Шторка в багажник': improvement/trunk-curtain.md
+    - 'Освещение в бардачке': improvement/light-in-glove.md
+    - 'Отключение функции старт/стоп': improvement/start-stop-off.md
+    - 'Установка видеорегистратора': improvement/video-register.md
+  - 'ТО и ремонты':
+    - service/index.md
+    - 'График ТО': service/to.md
+    - 'Технические жидкости': service/oil.md
+    - 'Инструкции по ремонту и обслуживанию':
+      - 'Электросхемы':
+        - service/manuals/electrical_circuits/index.md
+        - 'Схема блока IBU': service/manuals/electrical_circuits/ibu.md
+        - 'Схема блока ICU': service/manuals/electrical_circuits/icu.md
+        - 'Схема предохранителей': service/manuals/electrical_circuits/fuse.md
+      - 'Адаптация педали газа': service/manuals/gas-adaptation.md
+      - 'Инициализация (калибровка) механизма открытия багажника': service/manuals/5-th_door_calibraton.md
+      - 'Инициализация (калибровка) люка и шторки панорамы': service/manuals/hatch_init.md
+      - 'Коды цвета кузова': service/manuals/colors.md
+      - 'Устранение проблем с турбиной': service/manuals/turbine.md
+      - 'Устранение проблем с обогревом зеркал': service/manuals/glass-heat.md
+      - 'Устранение бряканья двери багажника на кочках': service/manuals/5-th_door_silent.md
+      - 'Параметры шин и дисков': service/manuals/wheels.md
+      - 'Установка радиатора АКПП': service/manuals/AT-cooling.md
+      - 'Замена резинок дворников': service/manuals/smena_rezinok.md
+  - 'Русификация': translate.md
+  - 'Номера запчастей':
+    - part/index.md
+    - 'Фильтры': part/filters.md
+    - 'Мотор': part/motor.md
+    - 'Топливная система': part/fuel.md
+    - 'Подвеска': part/suspension.md
+    - 'Интерьер': part/interior.md
+    - 'Экстерьер и кузовные элементы' : part/exterior.md
+    - 'Электрика': part/electric.md
+    - 'Прочее': part/other.md
+    - 'Аксессуары': part/accessories.md
+    - 'Официальный тюнинг и аксессуары': part/official_tuning.md
+  - 'Сигнализации':
+    - car_alarm/index.md
+    - 'Pandora':
+      - car_alarm/pandora/index.md
+      - 'Общая информация': car_alarm/pandora/first_info.md
+      - 'Включение подогрева сидений при дистанционном запуске': car_alarm/pandora/heat_autostart.md
+    - 'Starline': 
+      - car_alarm/starline/index.md
+      - 'Общая информация': car_alarm/starline/first_info.md
+    - 'Прочие средства безопасности': car_alarm/other.md
+  - 'Схемы из TIS': schemas/index.md
+  - 'FAQ': faq.md
