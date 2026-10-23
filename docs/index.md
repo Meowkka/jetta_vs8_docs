@@ -12,6 +12,6 @@
 - [FAQ (Вопрос-ответ)](faq.md)
 ## Исходники ресурса
 
-Все исходники на [GitHub](https://meowkka.github.io/jetta_vs8_docs/)
+Все исходники на [GitHub](https://github.com/Meowkka/jetta_vs8_docs)
 
 Правки и Pull Requests приветствуются
